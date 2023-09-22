@@ -427,7 +427,157 @@ Weaknesses: 1. The patient experiences severe shortness of breath, 2. He was una
 Opportunities: 1. Further evaluation and cardiologist/pulmonologist referral provide an opportunity for a comprehensive assessment and management of her condition.
 Threats: 1. The patient's dependence on medication and BIPAP may deteriorate to go into to ventilator.  2. There is more chance of death in the patient. 3. As he is hospitalised he may develop bed sores.  4. Exacerbation of the condition may be seen near future."
 ```
+`Response - ChatGPT3.5`
+```
+"Let's evaluate the provided medical report both in terms of Bloom's taxonomy and the specified rubric questions:
 
+**1. Bloom's Taxonomy Evaluation:**
+
+- **Knowledge (Remembering):** The intern successfully gathers basic patient information such as history, presenting complaints, personal and family history, and examination findings. This demonstrates knowledge application at the remembering level.
+
+- **Comprehension (Understanding):** The intern understands the patient's condition by correlating the symptoms, physical findings, and laboratory results. This level of comprehension is evident in the diagnosis section.
+
+- **Application (Applying):** The intern applies medical knowledge by ordering relevant investigations like serology, RBS, B.urea, S.Cr, and ECG, and interprets these results to make a diagnosis. They also prescribe medications and treatment, which reflects the application of medical interventions.
+
+- **Analysis (Analyzing):** The report lacks in-depth analysis of the patient's condition. While a diagnosis is provided, there is limited discussion of the underlying pathophysiology or potential differential diagnoses. An in-depth analysis would involve considering various possibilities and critically evaluating them.
+
+- **Synthesis (Creating):** The intern does not demonstrate synthesis in the report. They do not connect the patient's condition to broader medical concepts or research. Synthesis would involve exploring how this case fits into the larger context of COPD, acute cor pulmonale, and other related conditions.
+
+- **Evaluation (Evaluating):** The report does not include an evaluation of the effectiveness of the treatment plan, the potential complications, or the overall management strategy. This is an important aspect that could improve the report's quality.
+
+**2. Rubric Evaluation:**
+
+- **General Knowledge Learning Points:** The report provides basic information about the patient's condition, such as symptoms, examination findings, and lab results. However, it lacks insights into the broader implications or epidemiology of COPD or acute cor pulmonale. It also doesn't reference external sources or guidelines for further context.
+
+- **Discovery-Driven Learning Questions:** The report mentions the patient's history and symptoms but does not delve into specific questions related to the internal or external medicine aspects of the case. It could benefit from exploring questions like the cause of the acute exacerbation, the role of smoking cessation, or the relationship between COPD and heart failure.
+
+- **Clinical Complexity:** The report briefly touches on the patient's clinical complexity, mentioning comorbidities like diabetes and hypertension. However, a deeper analysis of the biological, psychological, and social aspects of the patient's condition is lacking.
+
+- **Thematic Analysis:** The report does not conduct a thematic analysis of the patient's case or identify overarching themes that could provide insights or guidance for future management.
+
+- **Impact on Patient Outcomes:** The report does not discuss the potential positive or negative impacts of the diagnosis and treatment on the patient's short-term and long-term outcomes.
+
+- **Competence of the Intern:**
+  - (i) **Competence in Data Capture:** The intern successfully captures the patient's data, including history, examination findings, and lab results.
+  - (ii) **Competence in Asking Questions:** The report lacks in-depth questioning and exploration of the case. It does not effectively sort themes for thematic analysis.
+  - (iii) **Competence in Finding Answers:** The intern makes a diagnosis and prescribes treatment but does not engage in in-depth analysis or exploration of new knowledge.
+  - (iv) **Competence in Communication:** The report could improve in communicating the case's learning points effectively, particularly in relation to how the findings could influence patient outcomes and future research.
+
+In summary, while the medical report demonstrates competence at the knowledge and comprehension levels of Bloom's taxonomy, it falls short in terms of analysis, synthesis, and evaluation. Additionally, it lacks depth in addressing the rubric's questions related to clinical complexity, thematic analysis, and the impact on patient outcomes. Enhancing critical thinking and providing more comprehensive insights would improve the report's quality."
+```
+`Response - Bard`
+```
+"Bloom's Taxonomy
+
+Knowledge
+
+    The patient is a 75-year-old male with a history of COPD, smoking, and chronic kidney disease.
+    He presented with shortness of breath, orthopnea, and edema.
+    His physical exam revealed signs of right heart failure, including raised JVP and pleural effusion.
+    His labs showed elevated troponin levels, suggestive of myocardial ischemia.
+    He was diagnosed with acute exacerbation of COPD with acute cor pulmonale and NSTEMI.
+
+Comprehension
+
+    The patient's shortness of breath and orthopnea were due to his right heart failure, which was caused by his COPD.
+    The patient's edema was due to both his right heart failure and his kidney disease.
+    The patient's myocardial ischemia was most likely caused by his right heart failure, which can lead to decreased coronary blood flow.
+
+Application
+
+    The patient was treated with diuretics, BiPAP, and oxygen to improve his respiratory function and reduce his edema.
+    He was also treated with heparin and aspirin to prevent further cardiovascular events.
+
+Analysis
+
+    The patient's case highlights the importance of early diagnosis and treatment of COPD and other chronic diseases.
+    It also demonstrates the potential for COPD to lead to serious cardiovascular complications.
+
+Evaluation
+
+    The patient's treatment plan was appropriate and effective. He showed significant improvement in his respiratory function and edema after treatment. His troponin levels also decreased, suggesting that his myocardial ischemia was resolving.
+
+Missing points:
+
+    The patient's chest X-ray was not suggestive of COPD. This could be due to a number of factors, such as the fact that the patient was in respiratory distress at the time of the X-ray, or the fact that the patient's COPD was not severe.
+    The patient's troponin levels were elevated, but he did not have any other clinical findings suggestive of myocardial infarction, such as chest pain or ECG changes. This suggests that the patient may have had subendocardial ischemia, which is a type of ischemia that does not cause symptoms or ECG changes.
+    It is not clear from the case report whether the patient was tested for pulmonary embolism. Pulmonary embolism is a common differential diagnosis for patients with acute shortness of breath and right heart failure.
+
+Evaluation of the report
+
+General knowledge learning points:
+
+    COPD is a chronic lung disease that can lead to right heart failure and myocardial ischemia.
+    Right heart failure can cause a number of clinical findings, including shortness of breath, orthopnea, edema, and raised JVP.
+    Elevated troponin levels can be suggestive of myocardial ischemia, even in the absence of other clinical findings.
+
+Particular discovery driven learning questions:
+
+    What is the relationship between COPD and cor pulmonale?
+    What is the relationship between cor pulmonale and myocardial ischemia?
+    Is there any evidence to support the use of magnesium sulfate in the treatment of acute exacerbation of COPD?
+
+Clinical complexity:
+
+    The patient had COPD, chronic kidney disease, right heart failure, and NSTEMI. This clinical complexity made it challenging to diagnose and treat the patient.
+
+Thematic analysis and learning:
+
+    The main theme of this case report is the importance of early diagnosis and treatment of COPD and other chronic diseases.
+    The patient's case also demonstrates the potential for COPD to lead to serious cardiovascular complications.
+
+Positive and negative impact of the learning on the patient outcomes:
+
+    The patient's learning from this case report could have a positive impact on the outcomes of future patients with COPD and other chronic diseases.
+    For example, the patient could use his learning to develop educational materials for patients with COPD about the importance of early diagnosis and treatment, and the potential for cardiovascular complications.
+
+Competence of intern:
+
+    The intern demonstrated competence in patient data capture by taking a thorough history and physical exam of the patient.
+    The intern also demonstrated competence in asking questions around the captured patient data by identifying the key clinical findings and differential diagnoses.
+    The intern demonstrated competence in finding the answers to the above questions and generating learning points by researching the literature and consulting with senior clinicians.
+    The intern demonstrated competence in communicating their learning to others by writing this case report.
+
+Overall, the intern's performance on this reflective writing assignment was excellent. The intern demonstrated a deep understanding of the patient's case and the underlying pathophysiology. The intern also demonstrated a commitment to learning and improving their practice."
+```
+`Response - August`
+```
+"Bloom's Taxonomy: 
+1. Remember: The intern has demonstrated a good ability to recall facts and basic concepts, such as the patient's symptoms, medical history, and examination findings.
+2. Understand: The intern has shown understanding by describing the patient's condition, explaining the relevance of certain symptoms, and interpreting test results.
+3. Apply: The intern applies knowledge by conducting examinations, ordering investigations, and formulating a treatment plan.
+4. Analyze: The intern has demonstrated analysis by differentiating between symptoms, correlating them with possible conditions, and interpreting test results to reach a diagnosis.
+5. Evaluate: The intern could have better demonstrated evaluation by justifying the chosen treatment plan, discussing the prognosis, and reflecting on the patient's response to treatment.
+6. Create: The intern could have better demonstrated creation by suggesting alternative treatment plans, predicting possible complications, and formulating a long-term management plan.
+
+Rubric:
+a. General knowledge learning points: The intern has learned about COPD and heart failure. The intern could have better demonstrated learning by discussing the pathophysiology, epidemiology, and common presentations of these conditions.
+b. Particular discovery driven learning questions: The intern could have better demonstrated this by discussing the unusual features of the case, exploring potential research questions, and reflecting on how this case has changed their understanding of COPD and heart failure.
+c. Clinical complexity: The intern has demonstrated understanding of the biological complexity of the patient's case. The intern could have better demonstrated understanding of the psychological and social complexity by discussing the patient's mental health, lifestyle, and social support.
+d. Thematic analysis: The intern could have better demonstrated this by identifying recurring themes in the patient's case, such as chronic disease management and the impact of lifestyle factors on health.
+e. Impact on patient outcomes: The intern could have better demonstrated this by discussing the patient's progress, reflecting on the effectiveness of the treatment plan, and predicting future health outcomes.
+f. Competence: The intern has demonstrated competence in patient data capture, thematic analysis, and finding answers. The intern could have better demonstrated competence in questioning the captured patient data and communicating the learning points."
+```
+
+### Expert evaluation of LLM evaluations
+
+`Expert evaluation evaluation of all three above responses`
+```
+Of the 3 chatGPT 3.5 emerges the indisputable winner and beats the other two way behind in the finishing line.
+Bard falters glaringly at comprehension and has the potential to mislead while the other LLM doesn't contribute as effectively as ChatGPT.
+```
+
+`Expert comments on Bard PaJR evaluation`
+```
+Bard evaluation :
+
+Bloom 1 (knowledge): Good. Perhaps there's more to it and one could even bring in medical ontologies here but we'll need to explore this further. Either SNOMED CT or even NMC codes! 
+Bloom game 2 (Comprehension): Misleading! Shortness of breath and orthopnea are due to left ventricular failure and his suspected NSTEMi (heart attack) should have been held responsible. Also the same shortness of breath symptoms can happen due to COPD acute exacerbation 
+Bloom 3 (Application): Here bard confuses the intern's learning evaluation with the patient evaluation while ChatGPT gets it right 
+Bloom game 4 (analysis): Again bard wrong chatGPT right 
+Bloom game 5 (evaluation) : chatGPT right bard wrong 
+Bloom game 6 (creation): Bard has skipped this while ChatGPT scores again
+```
 
 ## Advanced techniques with prompts
 
