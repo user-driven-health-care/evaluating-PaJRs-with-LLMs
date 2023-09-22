@@ -4,11 +4,11 @@
 
 ### What are PaJRs?
 
-### How can I write PaJRs?
+### Writing PaJRs
 
 ### What are LLMs?
 
-### Where can I access LLMs?
+### Accessing LLMs
 
 ## Getting started with prompts
 
@@ -32,5 +32,5 @@
 
 ### Using Apps Script and Google Sheets
 
-## How can you help?
+## Contributing to this effort
 
