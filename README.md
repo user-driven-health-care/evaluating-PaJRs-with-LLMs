@@ -2,30 +2,27 @@
 
 ## The Basics
 
-<details>
-  <summary>What are PaJRs and LLMs?</summary>
+### What are PaJRs?
 
-  Something about PaJRs
+### How can I write PaJRs?
 
-  Something about LLMs
+### What are LLMs?
 
-  </details>
+### Where can I access LLMs?
 
-<details>
-<summary>How can you use LLMs?</summary>
+## Getting Started
 
-<details>
-<summary> Using ChatGPT</summary>
-    
-> Here is how you use ChatGPT
+### Using LLMs for evaluating writing
 
-</details>
-<details>
-<summary> Using Bard</summary>
+### Using LLMs for healthcare
 
-Here is how you use Bard
+### Using LLMs for evaluating PaJRs
 
-</details>
-</details>
+## Advanced Techniques
 
+### Providing rubrics 
+
+### Providing sample responses
+
+### Specifying output
 
