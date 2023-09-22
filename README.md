@@ -46,14 +46,78 @@ Goto [https://bard.google.com](https://bard.google.com) to access Google's Bard 
 Bard is available at no cost - this includes the web version and the access via API. It is said to be not as accurate as OpenAI's ChatGPT, especially on health questions.
 
 #### Accessing August
-Goto [https://meetaugust.ai/wa] or start chatting with +918738030604 on Whatsapp to access Beyond Health's August on Whatsapp. You will need to sign in via phone number+OTP.
+Goto [https://meetaugust.ai/wa](https://meetaugust.ai/wa) or start chatting with +918738030604 on Whatsapp to access Beyond Health's August on Whatsapp. You will need to sign in via phone number+OTP.
 
 August web version is available at no cost. It is unclear if it has API access. 
 
+---
 
 ## Getting started with prompts
 
+For the purpose of being able to evaluate PaJRs with LLMs, we'll focus on two prompt types. 
+
 ### Prompts for evaluating writing
+
+LLMs can critically evaluate writing on any topic and spot gaps in logic, reasoning, et al. Here is an example. 
+
+`Prompt`
+```
+Can you critically evaluate the writeup below to check for sound logic and reasoning. What are the gaps?
+
+The root cause of the Koyna earthquake, which occurred on December 10, 1967, in the Koyna region of Maharashtra, India, was associated with reservoir-induced seismicity (RIS). Specifically, it was caused by the impoundment of the Koyna Dam reservoir.
+
+Reservoir-induced seismicity occurs when the filling of a large reservoir behind a dam, such as the Koyna Dam, causes changes in stress and pressure on the Earth's crust. When water is impounded behind a dam, it increases the weight and pressure on the underlying rocks. This additional stress can lead to the reactivation of existing geological faults or the creation of new fractures in the Earth's crust. When the accumulated stress along these fault lines exceeds the strength of the rocks, it is released in the form of an earthquake.
+
+In the case of the Koyna earthquake, the impoundment of the Koyna Dam reservoir led to a significant increase in stress in the region, ultimately causing the release of energy in the form of a powerful earthquake. The Koyna earthquake had a magnitude of 6.3 and resulted in significant damage and loss of life in the affected area. It is one of the most well-documented cases of reservoir-induced seismicity in the world and serves as an important example of how human activities, such as dam construction, can induce earthquakes.
+```
+`Response`
+```
+The provided write-up offers a generally accurate explanation of the Koyna earthquake and its association with reservoir-induced seismicity (RIS). However, there are some critical aspects that should be considered for a more comprehensive and accurate assessment:
+
+1. **Overemphasis on Reservoir-Induced Seismicity (RIS):** While it correctly identifies RIS as a contributing factor, it may give the impression that the Koyna earthquake was solely caused by the impoundment of the Koyna Dam reservoir. It's essential to highlight that RIS is one of several factors contributing to seismic activity in the region.
+
+2. **Complexity of Seismic Activity:** The write-up simplifies the relationship between reservoir filling and seismic activity. Seismic events are usually the result of a combination of factors, including natural tectonic processes, local geological conditions, and human activities like reservoir impoundment. The Koyna earthquake, for instance, was influenced by the broader tectonic context of the region, not just reservoir impoundment.
+
+3. **Magnitude and Depth:** While it mentions the magnitude of the Koyna earthquake (6.3), it doesn't provide information about its depth. Earthquake depth is a crucial factor in understanding their causes and impacts.
+
+4. **Lack of Historical Context:** The write-up could benefit from providing historical context, mentioning whether there were prior seismic events in the region and their magnitudes. This would help in understanding the seismic activity's evolution and recurring patterns.
+
+5. **Scientific Data and Research:** A more comprehensive evaluation should include references to scientific studies and research on the Koyna earthquake. Citing authoritative sources would enhance the credibility of the information presented.
+
+6. **Mitigation Measures:** It might be useful to discuss the measures taken to manage and mitigate the risk of reservoir-induced seismicity in the Koyna region, such as monitoring and regulating water levels.
+
+In summary, while the write-up offers a reasonable overview of the Koyna earthquake and its connection to reservoir-induced seismicity, it could benefit from a more nuanced and comprehensive discussion that considers the broader geological and tectonic factors at play, historical context, and references to scientific research. This would provide a more accurate and well-rounded understanding of the event.
+```
+
+
+LLMs are also familiar with common frameworks used to evaluate writing e.g. Bloom's taxonomy. 
+
+`Prompt`
+```
+Can you critically evaluate the following writeup using Bloom's taxonomy?
+
+The root cause of the Koyna earthquake, which occurred on December 10, 1967, in the Koyna region of Maharashtra, India, was associated with reservoir-induced seismicity (RIS). Specifically, it was caused by the impoundment of the Koyna Dam reservoir.
+
+Reservoir-induced seismicity occurs when the filling of a large reservoir behind a dam, such as the Koyna Dam, causes changes in stress and pressure on the Earth's crust. When water is impounded behind a dam, it increases the weight and pressure on the underlying rocks. This additional stress can lead to the reactivation of existing geological faults or the creation of new fractures in the Earth's crust. When the accumulated stress along these fault lines exceeds the strength of the rocks, it is released in the form of an earthquake.
+
+In the case of the Koyna earthquake, the impoundment of the Koyna Dam reservoir led to a significant increase in stress in the region, ultimately causing the release of energy in the form of a powerful earthquake. The Koyna earthquake had a magnitude of 6.3 and resulted in significant damage and loss of life in the affected area. It is one of the most well-documented cases of reservoir-induced seismicity in the world and serves as an important example of how human activities, such as dam construction, can induce earthquakes.
+```
+`Response`
+```
+Using Bloom's Taxonomy, we can evaluate the provided write-up in terms of cognitive levels, from lower-order thinking skills (remembering and understanding) to higher-order thinking skills (analyzing, evaluating, and creating).
+
+1. **Remembering:** The write-up accurately recalls facts about the Koyna earthquake, its date, location, and the concept of reservoir-induced seismicity (RIS).
+
+2. **Understanding:** The write-up demonstrates an understanding of the causal relationship between the impoundment of the Koyna Dam reservoir and the earthquake. It explains how increased stress and pressure on the Earth's crust can lead to seismic events.
+
+3. **Analyzing:** The write-up could benefit from a deeper level of analysis. It does not delve into the geological or tectonic factors specific to the Koyna region that might have contributed to the earthquake. Additionally, it doesn't explore the broader implications or consequences of RIS beyond this specific case.
+
+4. **Evaluating:** There is some evaluation in the write-up when it mentions that the Koyna earthquake is "one of the most well-documented cases of reservoir-induced seismicity." However, it lacks a critical examination of the potential limitations or controversies associated with this claim. Furthermore, it doesn't assess the significance of this event in the context of earthquake research and risk mitigation.
+
+5. **Creating:** The write-up does not engage in higher-level creative thinking, such as proposing potential solutions or strategies to mitigate the risks associated with RIS or suggesting how future dam projects might minimize their impact on seismic activity.
+
+In summary, the write-up primarily operates at the "remembering" and "understanding" levels of Bloom's Taxonomy. While it effectively communicates basic information about the Koyna earthquake and RIS, it could be improved by incorporating more in-depth analysis, critical evaluation, and creative thinking to provide a more comprehensive and insightful perspective on the topic.
+```
 
 ### Prompts for healthcare
 
