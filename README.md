@@ -1,6 +1,6 @@
 # Evaluating PaJRs with LLMs: A Guide
 
-## The Basics
+## The basics
 
 ### What are PaJRs?
 
@@ -10,19 +10,27 @@
 
 ### Where can I access LLMs?
 
-## Getting Started
+## Getting started with prompts
 
-### Using LLMs for evaluating writing
+### Prompts for evaluating writing
 
-### Using LLMs for healthcare
+### Prompts for healthcare
 
-### Using LLMs for evaluating PaJRs
+### Prompts for evaluating PaJRs
 
-## Advanced Techniques
+## Advanced techniques with prompts
 
 ### Providing rubrics 
 
 ### Providing sample responses
 
 ### Specifying output
+
+## Automating evaluations 
+
+### Getting your API key
+
+### Using Apps Script and Google Sheets
+
+## How can you help?
 
