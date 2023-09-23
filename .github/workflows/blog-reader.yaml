@@ -21,5 +21,7 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 7
+      - name: Install Node Modules
+        run: cd scripts/ && pnpm install
       - name: Parse Blogs
         run: node scripts/blog-reader.js "${{ github.event.inputs.urls }}"
