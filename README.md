@@ -3,12 +3,14 @@
 ## The Basics
 
 ### What are PaJRs?
+<!--
 - [ ] Todo - Summarize and link to paper about PaJRs
 - [ ] Todo - Summarize and link to paper about CBBLE
-
+-->
 ### Writing PaJRs
-
+<!--
 - [ ] Todo - Summarize and link to blog post explaining how to write PaJRs
+-->
 
 ### What are LLMs?
 
@@ -29,8 +31,9 @@ instituting significant political reforms during his rule.
 
 While LLMs are knowledgeable and provide the right answers most of the time, often they `hallucinate` or in other words provide non-factual information. Hence it is important to fact check the answer from an LLM. LLMs also falter when posed with certain types of logic questions. 
 
+<!--
 - [ ] Todo - Add link to paper that evaluate what LLMs are good and bad at.
-
+-->
 ### Accessing LLMs
 
 LLMs can be accessed via a web browser, over messengers such as Whatsapp or programmatically via an API. Popular LLMs include OpenAI's ChatGPT, Google's Bard (both of them closed source and proprietary, but hosted by OpenAI and Google) and Meta's Llama 2 which is open source but needs to be hosted by you. While ChatGPT and Bard both answer health related queries, there are specific LLMs trained on medical data such as Beyond Health's August and Google's Med-PaLM. 
@@ -568,23 +571,22 @@ f. Competence: The intern has demonstrated competence in patient data capture, t
 
 ### Expert evaluation of LLM evaluations
 
-`Expert evaluation evaluation of all three above responses`
-```
-Of the 3 chatGPT 3.5 emerges the indisputable winner and beats the other two way behind in the finishing line.
-Bard falters glaringly at comprehension and has the potential to mislead while the other LLM doesn't contribute as effectively as ChatGPT.
-```
+> Of the 3 chatGPT 3.5 emerges the indisputable winner and beats the other two way behind in the finishing line. Bard falters glaringly at comprehension and has the potential to mislead while the other LLM doesn't contribute as effectively as ChatGPT.
 
-`Expert comments on Bard PaJR evaluation`
-```
-Bard evaluation :
+Explaining in detail where Bard went wrong, experts said the following - 
 
-Bloom 1 (knowledge): Good. Perhaps there's more to it and one could even bring in medical ontologies here but we'll need to explore this further. Either SNOMED CT or even NMC codes! 
-Bloom game 2 (Comprehension): Misleading! Shortness of breath and orthopnea are due to left ventricular failure and his suspected NSTEMi (heart attack) should have been held responsible. Also the same shortness of breath symptoms can happen due to COPD acute exacerbation 
-Bloom 3 (Application): Here bard confuses the intern's learning evaluation with the patient evaluation while ChatGPT gets it right 
-Bloom game 4 (analysis): Again bard wrong chatGPT right 
-Bloom game 5 (evaluation) : chatGPT right bard wrong 
-Bloom game 6 (creation): Bard has skipped this while ChatGPT scores again
-```
+> Bard evaluation :
+> Bloom 1 (knowledge): Good. Perhaps there's more to it and one could even bring in medical ontologies here but we'll need to explore this further. Either SNOMED CT or even NMC codes!
+> 
+> Bloom game 2 (Comprehension): Misleading! Shortness of breath and orthopnea are due to left ventricular failure and his suspected NSTEMi (heart attack) should have been held responsible. Also the same shortness of breath symptoms can happen due to COPD acute exacerbation
+> 
+> Bloom 3 (Application): Here bard confuses the intern's learning evaluation with the patient evaluation while ChatGPT gets it right
+> 
+> Bloom game 4 (analysis): Again bard wrong chatGPT right
+> 
+> Bloom game 5 (evaluation) : chatGPT right bard wrong
+> 
+> Bloom game 6 (creation): Bard has skipped this while ChatGPT scores again
 
 ## Advanced techniques with prompts
 
