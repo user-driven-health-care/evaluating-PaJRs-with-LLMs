@@ -1,6 +1,6 @@
 # Evaluating PaJRs with LLMs: A Guide
 
-## The basics
+## The Basics
 
 ### What are PaJRs?
 - [ ] Todo - Summarize and link to paper about PaJRs
@@ -60,8 +60,8 @@ For the purpose of being able to evaluate PaJRs with LLMs, we'll focus on two pr
 
 LLMs can critically evaluate writing on any topic and spot gaps in logic, reasoning, et al. Here is an example. 
 
-`Prompt`
-```
+<details>
+  <summary>Prompt</summary>
 Can you critically evaluate the writeup below to check for sound logic and reasoning. What are the gaps?
 
 The root cause of the Koyna earthquake, which occurred on December 10, 1967, in the Koyna region of Maharashtra, India, was associated with reservoir-induced seismicity (RIS). Specifically, it was caused by the impoundment of the Koyna Dam reservoir.
@@ -69,9 +69,10 @@ The root cause of the Koyna earthquake, which occurred on December 10, 1967, in 
 Reservoir-induced seismicity occurs when the filling of a large reservoir behind a dam, such as the Koyna Dam, causes changes in stress and pressure on the Earth's crust. When water is impounded behind a dam, it increases the weight and pressure on the underlying rocks. This additional stress can lead to the reactivation of existing geological faults or the creation of new fractures in the Earth's crust. When the accumulated stress along these fault lines exceeds the strength of the rocks, it is released in the form of an earthquake.
 
 In the case of the Koyna earthquake, the impoundment of the Koyna Dam reservoir led to a significant increase in stress in the region, ultimately causing the release of energy in the form of a powerful earthquake. The Koyna earthquake had a magnitude of 6.3 and resulted in significant damage and loss of life in the affected area. It is one of the most well-documented cases of reservoir-induced seismicity in the world and serves as an important example of how human activities, such as dam construction, can induce earthquakes.
-```
-`Response`
-```
+</details>
+
+<details>
+  <summary>Response</summary>
 The provided write-up offers a generally accurate explanation of the Koyna earthquake and its association with reservoir-induced seismicity (RIS). However, there are some critical aspects that should be considered for a more comprehensive and accurate assessment:
 
 1. **Overemphasis on Reservoir-Induced Seismicity (RIS):** While it correctly identifies RIS as a contributing factor, it may give the impression that the Koyna earthquake was solely caused by the impoundment of the Koyna Dam reservoir. It's essential to highlight that RIS is one of several factors contributing to seismic activity in the region.
@@ -87,13 +88,12 @@ The provided write-up offers a generally accurate explanation of the Koyna earth
 6. **Mitigation Measures:** It might be useful to discuss the measures taken to manage and mitigate the risk of reservoir-induced seismicity in the Koyna region, such as monitoring and regulating water levels.
 
 In summary, while the write-up offers a reasonable overview of the Koyna earthquake and its connection to reservoir-induced seismicity, it could benefit from a more nuanced and comprehensive discussion that considers the broader geological and tectonic factors at play, historical context, and references to scientific research. This would provide a more accurate and well-rounded understanding of the event.
-```
-
+</details>
 
 LLMs are also familiar with common frameworks used to evaluate writing e.g. Bloom's taxonomy. 
 
-`Prompt`
-```
+<details>
+<summary>Prompt</summary>
 Can you critically evaluate the following writeup using Bloom's taxonomy?
 
 The root cause of the Koyna earthquake, which occurred on December 10, 1967, in the Koyna region of Maharashtra, India, was associated with reservoir-induced seismicity (RIS). Specifically, it was caused by the impoundment of the Koyna Dam reservoir.
@@ -101,9 +101,9 @@ The root cause of the Koyna earthquake, which occurred on December 10, 1967, in 
 Reservoir-induced seismicity occurs when the filling of a large reservoir behind a dam, such as the Koyna Dam, causes changes in stress and pressure on the Earth's crust. When water is impounded behind a dam, it increases the weight and pressure on the underlying rocks. This additional stress can lead to the reactivation of existing geological faults or the creation of new fractures in the Earth's crust. When the accumulated stress along these fault lines exceeds the strength of the rocks, it is released in the form of an earthquake.
 
 In the case of the Koyna earthquake, the impoundment of the Koyna Dam reservoir led to a significant increase in stress in the region, ultimately causing the release of energy in the form of a powerful earthquake. The Koyna earthquake had a magnitude of 6.3 and resulted in significant damage and loss of life in the affected area. It is one of the most well-documented cases of reservoir-induced seismicity in the world and serves as an important example of how human activities, such as dam construction, can induce earthquakes.
-```
-`Response`
-```
+</details>
+<details>
+  <summary>Response</summary>
 Using Bloom's Taxonomy, we can evaluate the provided write-up in terms of cognitive levels, from lower-order thinking skills (remembering and understanding) to higher-order thinking skills (analyzing, evaluating, and creating).
 
 1. **Remembering:** The write-up accurately recalls facts about the Koyna earthquake, its date, location, and the concept of reservoir-induced seismicity (RIS).
@@ -117,26 +117,26 @@ Using Bloom's Taxonomy, we can evaluate the provided write-up in terms of cognit
 5. **Creating:** The write-up does not engage in higher-level creative thinking, such as proposing potential solutions or strategies to mitigate the risks associated with RIS or suggesting how future dam projects might minimize their impact on seismic activity.
 
 In summary, the write-up primarily operates at the "remembering" and "understanding" levels of Bloom's Taxonomy. While it effectively communicates basic information about the Koyna earthquake and RIS, it could be improved by incorporating more in-depth analysis, critical evaluation, and creative thinking to provide a more comprehensive and insightful perspective on the topic.
-```
+</details>
 
 ### Prompts for healthcare
 > ⚠️ Warning! LLMs are not doctors. Always validate the output from LLMs with a real doctor. 
 
 LLMs are useful in providing explanation for medical terms. 
-
-`Prompt`
-```
+<details>
+  <summary>Prompt</summary>
 Ceribro vascular accident with Acute Infract in right occiputal, parital and frontal regions - can you explain this?
-```
-`Response`
-```
+</details>
+
+<details>
+  <summary>Response</summary>
+
 Certainly, a "cerebrovascular accident" (CVA) is another term for a stroke. In this case, the stroke has occurred in the brain's right occipital, parietal, and frontal regions. The terms "occipital," "parietal," and "frontal" refer to specific areas of the brain. An "acute infarct" indicates that there is an area of damaged or dead brain tissue due to a lack of blood supply, usually caused by a blockage in a blood vessel. This type of stroke can lead to various neurological symptoms depending on the functions associated with those brain regions, such as vision, sensation, and motor control. If you or someone you know is dealing with this situation, it's important to consult a medical professional for appropriate guidance and treatment.
-```
+</details>
 
 LLMs are also useful for summarizing lots of text. 
-
-`Prompt`
-```
+<details>
+  <summary>Prompt</summary>
 Can you provide the following organized by year, in chronological order - 
 c/o spasm of fingers of upper limbs with tremors since 3 days , excessive sweating , calf muscle pain and generalised weakness since 3 days . 
 
@@ -155,9 +155,11 @@ Patient wakes up at 4 am in the morning and collects milk from buffalos and come
 
 Past history:
 History of trauma to the Achilles tendon in 2007 underwent tendon repair surgery. H/o pancreatitis 10 years ago , underwent surgery. H/o seizures 4 months ago . K/c/o DM since 7 years. N/k/ c/o HTN ,CVA,CAD ,ASTHMA 
-```
-`Response`
-```
+</details>
+
+<details>
+  <summary>Response</summary>
+
 Organized by year, in chronological order:
 
 1. 10 years ago:
@@ -202,7 +204,7 @@ Medical conditions:
 - Past medical history: No history of hypertension (HTN), cerebrovascular accident (CVA), coronary artery disease (CAD), or asthma (ASTHMA) mentioned.
 
 Please note that the exact year for some events is not provided, so they are presented in a relative chronological order based on the given information.
-```
+</details>
 
 ### Prompts for evaluating PaJRs
 
@@ -210,9 +212,9 @@ Combining techniques of evaluating writing and its knowledge of healthcare, one 
 
 - [ ] Todo - Add pointer to and explanation of Dr Rakesh's rubric for evaluating PaJRs.
 
-`Prompt`
-```
-"Below is a report submitted by a medical PG intern as part of a reflective writing assignment. Can you evaluate it critically along two lines. 
+<details>
+  <summary>Prompt</summary>
+Below is a report submitted by a medical PG intern as part of a reflective writing assignment. Can you evaluate it critically along two lines. 
 1. Bloom's taxonomy. What are points that demonstrate competency at each level of the Bloom's taxonomy? What are points that are missing at each level that could have been covered? 
 2. Evaluate it along the following questions/rubric - 
   a. What are the general knowledge learning points that we gain from this patient's data that is easily accessible online? 
@@ -426,10 +428,11 @@ Strengths: He has a supportive family who provides financial stability and assis
 Weaknesses: 1. The patient experiences severe shortness of breath, 2. He was unable to tolerate BiPAP, 3. The patient has been unable to find relief even on continuous medication; 4. He has been experiencing sleep disturbances. 5. The patient's condition may deteriorate 
 Opportunities: 1. Further evaluation and cardiologist/pulmonologist referral provide an opportunity for a comprehensive assessment and management of her condition.
 Threats: 1. The patient's dependence on medication and BIPAP may deteriorate to go into to ventilator.  2. There is more chance of death in the patient. 3. As he is hospitalised he may develop bed sores.  4. Exacerbation of the condition may be seen near future."
-```
-`Response - ChatGPT3.5`
-```
-"Let's evaluate the provided medical report both in terms of Bloom's taxonomy and the specified rubric questions:
+</details>
+
+<details>
+  <summary>Response - ChatGPT3.5</summary>
+Let's evaluate the provided medical report both in terms of Bloom's taxonomy and the specified rubric questions:
 
 **1. Bloom's Taxonomy Evaluation:**
 
@@ -464,10 +467,12 @@ Threats: 1. The patient's dependence on medication and BIPAP may deteriorate to 
   - (iv) **Competence in Communication:** The report could improve in communicating the case's learning points effectively, particularly in relation to how the findings could influence patient outcomes and future research.
 
 In summary, while the medical report demonstrates competence at the knowledge and comprehension levels of Bloom's taxonomy, it falls short in terms of analysis, synthesis, and evaluation. Additionally, it lacks depth in addressing the rubric's questions related to clinical complexity, thematic analysis, and the impact on patient outcomes. Enhancing critical thinking and providing more comprehensive insights would improve the report's quality."
-```
-`Response - Bard`
-```
-"Bloom's Taxonomy
+</details>
+
+<details>
+   <summary>Response - Bard</summary>
+   
+Bloom's Taxonomy
 
 Knowledge
 
@@ -539,10 +544,12 @@ Competence of intern:
     The intern demonstrated competence in communicating their learning to others by writing this case report.
 
 Overall, the intern's performance on this reflective writing assignment was excellent. The intern demonstrated a deep understanding of the patient's case and the underlying pathophysiology. The intern also demonstrated a commitment to learning and improving their practice."
-```
-`Response - August`
-```
-"Bloom's Taxonomy: 
+</details>
+
+<details>
+  <summary>Response - August</summary>   
+
+Bloom's Taxonomy: 
 1. Remember: The intern has demonstrated a good ability to recall facts and basic concepts, such as the patient's symptoms, medical history, and examination findings.
 2. Understand: The intern has shown understanding by describing the patient's condition, explaining the relevance of certain symptoms, and interpreting test results.
 3. Apply: The intern applies knowledge by conducting examinations, ordering investigations, and formulating a treatment plan.
@@ -557,7 +564,7 @@ c. Clinical complexity: The intern has demonstrated understanding of the biologi
 d. Thematic analysis: The intern could have better demonstrated this by identifying recurring themes in the patient's case, such as chronic disease management and the impact of lifestyle factors on health.
 e. Impact on patient outcomes: The intern could have better demonstrated this by discussing the patient's progress, reflecting on the effectiveness of the treatment plan, and predicting future health outcomes.
 f. Competence: The intern has demonstrated competence in patient data capture, thematic analysis, and finding answers. The intern could have better demonstrated competence in questioning the captured patient data and communicating the learning points."
-```
+</details>
 
 ### Expert evaluation of LLM evaluations
 
@@ -589,8 +596,8 @@ Bloom game 6 (creation): Bard has skipped this while ChatGPT scores again
 
 Often we have a large blob of text and we want to extract key datapoints, organized by rows and columns. One needs to explain the LLM what needs to be done and then specify output format. Here is an example. 
 
-`Prompt`
-```
+<details>
+<summary>Prompt</summary>
 25/07/23 : 
 4:30AM - 94mg/dl - 5U HAI + 5NPH ( Took Ragi Java ) 
 8AM - 36mg/dl - Took Dosa
@@ -682,9 +689,10 @@ Each chunk of data begins with a date on the first line of the data chunk. Then 
 
 --
 Can you summarize all the data above in a markdown table with dates as the rows, and the following 4 columns - time, blood glucose reading, insulin dose given, food consumed. 
-```
-`Response`
-```
+</details>
+<details>
+   <summary>Response</summary>
+
 Sure, here's the summarized data presented in a markdown table format:
 
 | Date       | Time    | Blood Glucose | Insulin Dose | Food Consumed            |
@@ -734,7 +742,7 @@ Sure, here's the summarized data presented in a markdown table format:
 |            | 4 pm    | 148 mg/dl     | 6U HAI + 4NPH| Took Rice                 |
 
 Please note that this table provides a condensed view of the data, and the "..." indicates that the pattern continues for the earlier dates. The table presents the date, time, blood glucose reading, insulin dose given, and food consumed for each recorded event.
-```
+</details>
 
 ## Automating evaluations 
 
