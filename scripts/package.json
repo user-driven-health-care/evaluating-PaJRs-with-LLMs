@@ -1,0 +1,10 @@
+{
+  "name": "@user-driven-health-care/blog-reader",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@mozilla/readability": "^0.4.4",
+    "got": "^13.0.0",
+    "jsdom": "^22.1.0"
+  }
+}

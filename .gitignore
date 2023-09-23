@@ -1,0 +1,6 @@
+# .gitignore
+# Tells Git to ignore some files.
+
+log.txt
+node_modules/
+build/
