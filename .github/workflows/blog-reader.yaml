@@ -25,3 +25,10 @@ jobs:
         run: cd scripts/ && pnpm install
       - name: Parse Blogs
         run: node scripts/blog-reader.js "${{ github.event.inputs.urls }}"
+      - name: Upload Files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add blogs/
+          git commit -m 'chore: parse blog ${{ github.event.inputs.urls }}'
+          git push
