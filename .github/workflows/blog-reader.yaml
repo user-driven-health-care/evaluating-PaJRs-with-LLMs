@@ -3,7 +3,7 @@ name: Blog Reader
 on:
   workflow_dispatch:
     inputs:
-      message:
+      urls:
         required: true
 
 jobs:
